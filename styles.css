@@ -1,0 +1,162 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+header a:hover {
+    background-color: #444;
+}
+
+#logo_link .logo {
+    width: 80px;
+}
+
+nav a {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+#hero {
+    background: url('images/hero.png') no-repeat center center;
+    background-size: cover;
+    text-align: center;
+    padding: 50px 0;
+}
+
+#hero-msg {
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    display: inline-block;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.home-title {
+    font-size: 2em;
+}
+
+.button-box {
+    margin-top: 10px;
+}
+
+.book {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.book:hover {
+    background-color: #0056b3;
+}
+
+main {
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.home-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.rivers-card, .camping-card, .rapids-card {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: center;
+    width: 300px;
+    margin: 10px;
+}
+
+.card-img {
+    width: 100%;
+    height: auto;
+}
+
+.icon {
+    width: 80px;
+    margin-top: -40px;
+}
+
+.msg {
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.join {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.join:hover {
+    background-color: #0056b3;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+footer .social {
+    margin-top: 10px;
+}
+
+footer .social a {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+footer .social img {
+    width: 80px;
+}
+
+#background {
+    height: 200px;
+    background-color: #f5f5f5;
+}
+
+a {
+    text-decoration: none;
+}

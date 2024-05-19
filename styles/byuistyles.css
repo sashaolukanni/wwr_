@@ -1,0 +1,36 @@
+body{
+    margin: 0%;
+}
+
+
+nav, footer {
+    background-color: rgba(255, 178, 229, 0.849);
+    color: white;
+    padding: 20px;
+}
+a:hover {
+    background-color: rgb(252, 236, 236);
+    color: rgb(135, 65, 173);
+}
+
+footer p {
+    font-size: 30px;
+    margin: 0 auto;
+    display: block;
+}
+img {
+    width: 40%;
+}
+img {
+    width: 40%;
+}
+
+* {
+    border: 2px solid rgb(255, 255, 255);
+}
+body {
+    text-align: center;
+}
+nav, footer {
+    text-align: center;
+}
